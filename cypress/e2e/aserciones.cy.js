@@ -3,6 +3,7 @@ describe('Aserciones', () => {
         cy.once('uncaught:exception', () => false);
         cy.visit('/automation-practice-form');
         cy.wait(3000);
+        
     })
 
     it('Asercion', () => {
